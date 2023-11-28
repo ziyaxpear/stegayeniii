@@ -5,7 +5,7 @@ try:
     import os
     from io import BytesIO
     from PIL import Image
-    import streamlit as st
+    import streamlit==1.17.0 as st
     import numpy as np
     import base64
     import json
